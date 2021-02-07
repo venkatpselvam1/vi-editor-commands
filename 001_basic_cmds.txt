@@ -4,6 +4,11 @@ once the vi-editor is opened in the command prompt press insert button to edit t
 naviagate over the file and edit it. after the press "esc" ,":" and "wq" and enter. 
 wq - wq indicates write and quit.
 The above are the command which I know before starting this git repo.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 vi filename		-- Creates a new file if it already does not exist, otherwise opens an existing file.
 vi -R filename		-- Opens an existing file in the read-only mode.
 
@@ -12,9 +17,28 @@ Command mode 		-− This mode enables you to perform administrative tasks such a
 
 Insert mode 		-− This mode enables you to insert text into the file. Everything that's typed in this mode is interpreted as input and placed in the file.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 :q!			-- to quit the file in the vi editor without saving the file
 :w			-- to write in the file, it is equivalent to saving the file using ctrl+s
 :wq			-- it will save the file and close the ifle fro the vi editor
 :ZZ			-- it is quivalent to :wq- press esc and type ZZ
+:k			-- k move up one line
+:j			-- j move down one line
+:l			-- move right one char
+:h			-- move left one char
+(instead of using k,j,h,l) - I prefer using up,down,left,right arrow. using those keys along with FN will move 
+vi is case sensitive
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+:i			-- inserts texts before the current cursor location
+:I			-- inserts text at the starting line of current cursor location
+:o			-- creates a new line and types from the current cursor lcoation
+:O			-- creates a new line above and types from the current location
+------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+:v			-- to enter into view mode
+once you enter into view mode, atrl+v to select the line, presss up/down button to select the desired lines. and press d to delte the lines
 
