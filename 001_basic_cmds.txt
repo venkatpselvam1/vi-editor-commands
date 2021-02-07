@@ -1,0 +1,6 @@
+touch filename.txt 	-- it will create a file with the given name
+vi filename.txt		-- it will open the file in the vi editor so we can edit
+once the vi-editor is opened in the command prompt press insert button to edit the file.
+naviagate over the file and edit it. after the press "esc" ,":" and "wq" and enter. 
+wq - wq indicates write and quit.
+The above are the command which I know before starting this git repo.
