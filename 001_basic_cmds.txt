@@ -4,3 +4,17 @@ once the vi-editor is opened in the command prompt press insert button to edit t
 naviagate over the file and edit it. after the press "esc" ,":" and "wq" and enter. 
 wq - wq indicates write and quit.
 The above are the command which I know before starting this git repo.
+vi filename		-- Creates a new file if it already does not exist, otherwise opens an existing file.
+vi -R filename		-- Opens an existing file in the read-only mode.
+
+Operation Modes:
+Command mode 		-− This mode enables you to perform administrative tasks such as saving the files, executing the commands, moving the cursor, cutting (yanking) and pasting the lines or words, as well as finding and replacing. In this mode, whatever you type is interpreted as a command.
+
+Insert mode 		-− This mode enables you to insert text into the file. Everything that's typed in this mode is interpreted as input and placed in the file.
+
+
+:q!			-- to quit the file in the vi editor without saving the file
+:w			-- to write in the file, it is equivalent to saving the file using ctrl+s
+:wq			-- it will save the file and close the ifle fro the vi editor
+:ZZ			-- it is quivalent to :wq- press esc and type ZZ
+
